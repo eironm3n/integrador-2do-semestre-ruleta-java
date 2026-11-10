@@ -3,7 +3,7 @@
 > **Trabajo académico** · Tecnicatura Universitaria en Programación — UTN, Facultad Regional San Rafael
 > **Entrega final del 2.º semestre** (2024) · Equipo **Código Enigma**
 
-Juego de consola que simula una ruleta de casino. El jugador arranca con un saldo
+Juego de escritorio que simula una ruleta de casino, con ventanas de diálogo. El jugador arranca con un saldo
 de fichas y puede apostar a números específicos (pago 35:1), a color (rojo/negro,
 1:1) o de forma combinada. El programa valida las apuestas, genera el número
 ganador de forma aleatoria y actualiza el saldo ronda a ronda; la partida termina
@@ -11,7 +11,7 @@ si el jugador se queda sin fichas.
 
 ## Tecnologías
 
-- **Java SE** — aplicación de consola (`Scanner` para E/S, validación de apuestas, RNG)
+- **Java SE** — interfaz con ventanas de diálogo de Swing (`JOptionPane`), validación de apuestas y número ganador con `Random`
 - Estructura de proyecto **NetBeans / Ant** (`build.xml`, `manifest.mf`)
 
 ## Ejecución
